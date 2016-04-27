@@ -130,7 +130,7 @@
     NSString *uri = @"http://img0.pcauto.com.cn/pcauto/1604/26/g__1461665134579_240x160.jpg";
     NSURL *url = [[NSURL alloc]initWithString:uri];
     NSURLRequest *urlRequest = [NSURLRequest requestWithURL:url];
-    __weak typeof(loadImage) wLoadImage = loadImage;
+    __weak UIImageView *wLoadImage = loadImage;
     [loadImage setImageWithURLRequest:urlRequest
                      placeholderImage:nil
                               success:^(NSURLRequest *request, NSHTTPURLResponse * _Nullable response, UIImage *image){
