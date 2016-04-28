@@ -11,6 +11,7 @@
 #import "BaseNavigationController.h"
 #import "CJDeviceVersion.h"
 #import "UIImageView+AFNetworking.h"
+#import "FirstViewController.h"
 
 @interface AppDelegate ()
 
@@ -57,23 +58,23 @@
 }
 
 - (void)setRootViewController {
-    BaseViewController *oneCtr = [[BaseViewController alloc]initWithNibName:nil bundle:nil];
+    FirstViewController *oneCtr = [[FirstViewController alloc]initWithUri:@"FirstViewController" ext:nil];
     BaseNavigationController *oneNavigationController = [[BaseNavigationController alloc] initWithRootViewController:oneCtr];
     oneNavigationController.navigationBar.barStyle = UIBarStyleDefault;
     oneNavigationController.tabBarItem.title = @"one";
     oneNavigationController.tabBarItem.image = [UIImage imageNamed:@"1"];
     
-    BaseViewController *twoCtr = [[BaseViewController alloc]initWithNibName:nil bundle:nil];
+    BaseViewController *twoCtr = [[BaseViewController alloc]initWithUri:nil ext:nil];
     BaseNavigationController *twoNavigationController = [[BaseNavigationController alloc] initWithRootViewController:twoCtr];
     twoNavigationController.navigationBar.barStyle = UIBarStyleDefault;
     twoNavigationController.tabBarItem.title = @"two";
     
-    BaseViewController *threeCtr = [[BaseViewController alloc]initWithNibName:nil bundle:nil];
+    BaseViewController *threeCtr = [[BaseViewController alloc]initWithUri:nil ext:nil];
     BaseNavigationController *threeNavigationController = [[BaseNavigationController alloc] initWithRootViewController:threeCtr];
     threeNavigationController.navigationBar.barStyle = UIBarStyleDefault;
     threeNavigationController.tabBarItem.title = @"three";
     
-    BaseViewController *fourCtr = [[BaseViewController alloc]initWithNibName:nil bundle:nil];
+    BaseViewController *fourCtr = [[BaseViewController alloc]initWithUri:nil ext:nil];
     BaseNavigationController *fourNavigationController = [[BaseNavigationController alloc] initWithRootViewController:fourCtr];
     fourNavigationController.navigationBar.barStyle = UIBarStyleDefault;
     fourNavigationController.tabBarItem.title = @"four";
