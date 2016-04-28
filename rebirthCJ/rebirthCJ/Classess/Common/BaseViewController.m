@@ -7,6 +7,7 @@
 //
 
 #import "BaseViewController.h"
+#import "FirstViewController.h"
 
 @interface BaseViewController ()
 
@@ -14,15 +15,38 @@
 
 @implementation BaseViewController
 
+- (instancetype)initWithUri:(NSString *)uri ext:(NSDictionary *)ext {
+    if (uri && uri.length > 0) {
+        self =  [super initWithNibName:NSStringFromClass(self.class) bundle:nil];
+    }else{
+        self = [super initWithNibName:nil bundle:nil];
+    }
+    if (self) {
+        self.ext = ext;
+    }
+    return self;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    // Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor colorWithRed:0.8686 green:0.9768 blue:0.9865 alpha:1.0];
+    //不设置iOS7之后view将向四周延伸
+    self.edgesForExtendedLayout = UIRectEdgeNone;
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    NSLog(@"this is %@", NSStringFromClass([self class]));
+    
+}
+
+- (void)viewDidDisappear:(BOOL)animated {
+    [super viewDidDisappear:animated];
 }
 
 @end
