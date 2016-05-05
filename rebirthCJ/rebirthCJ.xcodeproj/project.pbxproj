@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B408309D1CD87C61000940CB /* secondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B408309B1CD87C61000940CB /* secondViewController.m */; };
+		B408309E1CD87C61000940CB /* secondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B408309C1CD87C61000940CB /* secondViewController.xib */; };
+		B40830A01CD8823C000940CB /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B408309F1CD8823C000940CB /* libicucore.tbd */; };
+		B40830A21CD8824D000940CB /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B40830A11CD8824D000940CB /* libz.tbd */; };
+		B40830A41CD8825B000940CB /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B40830A31CD8825B000940CB /* libstdc++.tbd */; };
+		B40830A61CD88263000940CB /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B40830A51CD88263000940CB /* JavaScriptCore.framework */; };
+		B40830A81CD88278000940CB /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B40830A71CD88278000940CB /* ImageIO.framework */; };
+		B40830AA1CD88286000940CB /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B40830A91CD88286000940CB /* libsqlite3.tbd */; };
 		B4A1ACCA1CD054D200EE86DC /* 2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4A1ACC91CD054D200EE86DC /* 2@2x.png */; };
 		B4A1ACCC1CD054F600EE86DC /* 2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4A1ACCB1CD054F600EE86DC /* 2@3x.png */; };
 		B4A1ACD01CD0588B00EE86DC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4A1ACCF1CD0588B00EE86DC /* LaunchScreen.xib */; };
@@ -27,6 +35,7 @@
 		B4FBE84A1CD19D6800D297A0 /* naviBar_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4FBE8481CD19D6800D297A0 /* naviBar_back@2x.png */; };
 		B4FBE84B1CD19D6800D297A0 /* naviBar_back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4FBE8491CD19D6800D297A0 /* naviBar_back@3x.png */; };
 		B4FBE84E1CD1C42B00D297A0 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FBE84D1CD1C42B00D297A0 /* UIImage+Extension.m */; };
+		B4FBE8561CD3361800D297A0 /* AppDelegate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FBE8551CD3361800D297A0 /* AppDelegate+Extension.m */; };
 		EA14AFA623ADD4621E8A1982 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A31EFD42730026CE4316F2E5 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +59,16 @@
 /* Begin PBXFileReference section */
 		6164F5538D9A1129B4F8CD09 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		A31EFD42730026CE4316F2E5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B40830991CD87358000940CB /* Application-Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Application-Config.h"; sourceTree = "<group>"; };
+		B408309A1CD87C60000940CB /* secondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = secondViewController.h; sourceTree = "<group>"; };
+		B408309B1CD87C61000940CB /* secondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = secondViewController.m; sourceTree = "<group>"; };
+		B408309C1CD87C61000940CB /* secondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = secondViewController.xib; sourceTree = "<group>"; };
+		B408309F1CD8823C000940CB /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		B40830A11CD8824D000940CB /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		B40830A31CD8825B000940CB /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		B40830A51CD88263000940CB /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		B40830A71CD88278000940CB /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		B40830A91CD88286000940CB /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		B4A1ACC91CD054D200EE86DC /* 2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2@2x.png"; sourceTree = "<group>"; };
 		B4A1ACCB1CD054F600EE86DC /* 2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2@3x.png"; sourceTree = "<group>"; };
 		B4A1ACCF1CD0588B00EE86DC /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
@@ -86,6 +105,8 @@
 		B4FBE84C1CD1C42B00D297A0 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
 		B4FBE84D1CD1C42B00D297A0 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
 		B4FBE84F1CD1C4C600D297A0 /* General-Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "General-Config.h"; sourceTree = "<group>"; };
+		B4FBE8541CD3361800D297A0 /* AppDelegate+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+Extension.h"; sourceTree = "<group>"; };
+		B4FBE8551CD3361800D297A0 /* AppDelegate+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+Extension.m"; sourceTree = "<group>"; };
 		CB4534632EC61B87DE86F962 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -94,6 +115,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B40830AA1CD88286000940CB /* libsqlite3.tbd in Frameworks */,
+				B40830A81CD88278000940CB /* ImageIO.framework in Frameworks */,
+				B40830A61CD88263000940CB /* JavaScriptCore.framework in Frameworks */,
+				B40830A41CD8825B000940CB /* libstdc++.tbd in Frameworks */,
+				B40830A21CD8824D000940CB /* libz.tbd in Frameworks */,
+				B40830A01CD8823C000940CB /* libicucore.tbd in Frameworks */,
 				EA14AFA623ADD4621E8A1982 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -162,6 +189,8 @@
 				B4BFA9981CCF553900224FBC /* Configs */,
 				B4BFA9621CCF531100224FBC /* AppDelegate.h */,
 				B4BFA9631CCF531100224FBC /* AppDelegate.m */,
+				B4FBE8541CD3361800D297A0 /* AppDelegate+Extension.h */,
+				B4FBE8551CD3361800D297A0 /* AppDelegate+Extension.m */,
 				B4BFA96B1CCF531100224FBC /* Assets.xcassets */,
 				B4A1ACCF1CD0588B00EE86DC /* LaunchScreen.xib */,
 				B4BFA99C1CCF55D200224FBC /* Image */,
@@ -229,6 +258,9 @@
 				B4FBE83F1CD0B94400D297A0 /* FirstViewController.h */,
 				B4FBE8401CD0B94400D297A0 /* FirstViewController.m */,
 				B4FBE8421CD0B99900D297A0 /* FirstViewController.xib */,
+				B408309A1CD87C60000940CB /* secondViewController.h */,
+				B408309B1CD87C61000940CB /* secondViewController.m */,
+				B408309C1CD87C61000940CB /* secondViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -260,6 +292,7 @@
 			isa = PBXGroup;
 			children = (
 				B4FBE84F1CD1C4C600D297A0 /* General-Config.h */,
+				B40830991CD87358000940CB /* Application-Config.h */,
 			);
 			path = Configs;
 			sourceTree = "<group>";
@@ -291,6 +324,12 @@
 		F10BE24B2DF58146308FDA32 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B40830A91CD88286000940CB /* libsqlite3.tbd */,
+				B40830A71CD88278000940CB /* ImageIO.framework */,
+				B40830A51CD88263000940CB /* JavaScriptCore.framework */,
+				B40830A31CD8825B000940CB /* libstdc++.tbd */,
+				B40830A11CD8824D000940CB /* libz.tbd */,
+				B408309F1CD8823C000940CB /* libicucore.tbd */,
 				A31EFD42730026CE4316F2E5 /* libPods.a */,
 			);
 			name = Frameworks;
@@ -405,6 +444,7 @@
 			files = (
 				B4BFA9A21CCF5D9C00224FBC /* 1@2x.png in Resources */,
 				B4BFA96C1CCF531100224FBC /* Assets.xcassets in Resources */,
+				B408309E1CD87C61000940CB /* secondViewController.xib in Resources */,
 				B4A1ACCC1CD054F600EE86DC /* 2@3x.png in Resources */,
 				B4FBE84A1CD19D6800D297A0 /* naviBar_back@2x.png in Resources */,
 				B4BFA9A31CCF5D9C00224FBC /* 1@3x.png in Resources */,
@@ -485,6 +525,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4A1ACD71CD05BF500EE86DC /* CJDeviceVersion.m in Sources */,
+				B4FBE8561CD3361800D297A0 /* AppDelegate+Extension.m in Sources */,
 				B4BFA9A61CCF610B00224FBC /* BaseTabBarController.m in Sources */,
 				B4FBE8411CD0B94400D297A0 /* FirstViewController.m in Sources */,
 				B4BFA99F1CCF5A9F00224FBC /* BaseNavigationController.m in Sources */,
@@ -492,6 +533,7 @@
 				B4BFA99B1CCF557A00224FBC /* BaseViewController.m in Sources */,
 				B4FBE84E1CD1C42B00D297A0 /* UIImage+Extension.m in Sources */,
 				B4BFA9641CCF531100224FBC /* AppDelegate.m in Sources */,
+				B408309D1CD87C61000940CB /* secondViewController.m in Sources */,
 				B4BFA9611CCF531100224FBC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -619,11 +661,29 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/rebirthCJ/PrefixHeader.pch";
 				INFOPLIST_FILE = rebirthCJ/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = CJ.Lian.rebirthCJ;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"AFNetworking\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitone.allApp1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -635,11 +695,29 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/rebirthCJ/PrefixHeader.pch";
 				INFOPLIST_FILE = rebirthCJ/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = CJ.Lian.rebirthCJ;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"AFNetworking\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitone.allApp1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
