@@ -1,2 +1,19 @@
 platform :ios, '7.0'
-        pod "AFNetworking", "~> 3.0"
+pod "AFNetworking", "~> 3.0"
+pod "UMengAnalytics-NO-IDFA"
+
+# ShareSDk
+# 主模块(必须)
+pod "ShareSDK2"
+
+# Mob 公共库(必须)
+pod "MOBFoundation"
+
+# UI模块(非必须，需要用到ShareSDK提供的分享菜单栏和分享编辑页面需要以下1行)
+pod "ShareSDK2/UI/iPhoneDefault"
+
+# 平台SDK模块(只需要QQ、微信、新浪微博)
+pod "ShareSDK2/Connection/QQ"
+pod "ShareSDK2/Connection/QZone"
+pod "ShareSDK2/Connection/SinaWeibo"
+pod "ShareSDK2/Connection/WeChat"

@@ -7,6 +7,7 @@
 //
 
 #import "FirstViewController.h"
+#import "secondViewController.h"
 
 @interface FirstViewController ()
 
@@ -27,7 +28,7 @@
 }
 
 - (IBAction)buttonClick:(id)sender {
-    BaseViewController *twoCtr = [[BaseViewController alloc]initWithNibName:nil bundle:nil];
+    secondViewController *twoCtr = [[secondViewController alloc]initWithNibName:@"secondViewController" bundle:nil];
     twoCtr.navigationItem.title = @"子页面";
     [self.navigationController pushViewController:twoCtr animated:YES];
 }

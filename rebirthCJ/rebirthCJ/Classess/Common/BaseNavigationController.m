@@ -84,7 +84,6 @@
                     animated:(BOOL)animate
 {
     // Enable the gesture again once the new controller is shown
-    
     if ([self respondsToSelector:@selector(interactivePopGestureRecognizer)])
         self.interactivePopGestureRecognizer.enabled = YES;
 }

@@ -10,6 +10,8 @@
 #import "BaseViewController.h"
 #import "BaseNavigationController.h"
 #import "CJDeviceVersion.h"
+#import <ShareSDK/ShareSDK.h>
+#import "AppDelegate+Extension.h"
 #import "UIImageView+AFNetworking.h"
 #import "FirstViewController.h"
 
@@ -25,6 +27,9 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    [self setupUMeng];
+    [self setupShareSDK];
     
     [self setLaunchViewViewAnimation];
     
@@ -55,6 +60,14 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url {
+    return [ShareSDK handleOpenURL:url wxDelegate:self];
+}
+
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+    return [ShareSDK handleOpenURL:url sourceApplication:sourceApplication annotation:annotation wxDelegate:self];
 }
 
 - (void)setRootViewController {

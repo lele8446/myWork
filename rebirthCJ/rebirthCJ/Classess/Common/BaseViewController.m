@@ -7,6 +7,7 @@
 //
 
 #import "BaseViewController.h"
+#import "MobClick.h"
 #import "FirstViewController.h"
 
 @interface BaseViewController ()
@@ -41,8 +42,15 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
+    [MobClick beginLogPageView:NSStringFromClass([self class])];
     NSLog(@"this is %@", NSStringFromClass([self class]));
     
+}
+
+- (void)viewWillDisappear:(BOOL)animated
+{
+    [super viewWillDisappear:animated];
+    [MobClick endLogPageView:NSStringFromClass([self class])];
 }
 
 - (void)viewDidDisappear:(BOOL)animated {
