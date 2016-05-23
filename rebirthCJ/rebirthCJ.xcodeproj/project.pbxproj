@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B408309D1CD87C61000940CB /* secondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B408309B1CD87C61000940CB /* secondViewController.m */; };
-		B408309E1CD87C61000940CB /* secondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B408309C1CD87C61000940CB /* secondViewController.xib */; };
 		B40830A01CD8823C000940CB /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B408309F1CD8823C000940CB /* libicucore.tbd */; };
 		B40830A21CD8824D000940CB /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B40830A11CD8824D000940CB /* libz.tbd */; };
 		B40830A41CD8825B000940CB /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B40830A31CD8825B000940CB /* libstdc++.tbd */; };
@@ -29,8 +27,11 @@
 		B4BFA9A21CCF5D9C00224FBC /* 1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4BFA9A01CCF5D9C00224FBC /* 1@2x.png */; };
 		B4BFA9A31CCF5D9C00224FBC /* 1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4BFA9A11CCF5D9C00224FBC /* 1@3x.png */; };
 		B4BFA9A61CCF610B00224FBC /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4BFA9A51CCF610B00224FBC /* BaseTabBarController.m */; };
-		B4FBE8411CD0B94400D297A0 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FBE8401CD0B94400D297A0 /* FirstViewController.m */; };
-		B4FBE8431CD0B99900D297A0 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4FBE8421CD0B99900D297A0 /* FirstViewController.xib */; };
+		B4DD56791CEEFD4E008C0A82 /* NewThingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4DD56771CEEFD4E008C0A82 /* NewThingsViewController.m */; };
+		B4DD567A1CEEFD4E008C0A82 /* NewThingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4DD56781CEEFD4E008C0A82 /* NewThingsViewController.xib */; };
+		B4DD567E1CEF02A1008C0A82 /* PageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4DD567D1CEF02A1008C0A82 /* PageScrollView.m */; };
+		B4DD56891CEF0DE0008C0A82 /* CJColumnView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4DD56871CEF0DE0008C0A82 /* CJColumnView.m */; };
+		B4DD568A1CEF0DE0008C0A82 /* CJColumnView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4DD56881CEF0DE0008C0A82 /* CJColumnView.xib */; };
 		B4FBE8471CD19B6800D297A0 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FBE8461CD19B6800D297A0 /* UIBarButtonItem+Extension.m */; };
 		B4FBE84A1CD19D6800D297A0 /* naviBar_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4FBE8481CD19D6800D297A0 /* naviBar_back@2x.png */; };
 		B4FBE84B1CD19D6800D297A0 /* naviBar_back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4FBE8491CD19D6800D297A0 /* naviBar_back@3x.png */; };
@@ -60,9 +61,6 @@
 		6164F5538D9A1129B4F8CD09 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		A31EFD42730026CE4316F2E5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B40830991CD87358000940CB /* Application-Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Application-Config.h"; sourceTree = "<group>"; };
-		B408309A1CD87C60000940CB /* secondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = secondViewController.h; sourceTree = "<group>"; };
-		B408309B1CD87C61000940CB /* secondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = secondViewController.m; sourceTree = "<group>"; };
-		B408309C1CD87C61000940CB /* secondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = secondViewController.xib; sourceTree = "<group>"; };
 		B408309F1CD8823C000940CB /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
 		B40830A11CD8824D000940CB /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		B40830A31CD8825B000940CB /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
@@ -95,9 +93,14 @@
 		B4BFA9A11CCF5D9C00224FBC /* 1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1@3x.png"; sourceTree = "<group>"; };
 		B4BFA9A41CCF610B00224FBC /* BaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabBarController.h; sourceTree = "<group>"; };
 		B4BFA9A51CCF610B00224FBC /* BaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarController.m; sourceTree = "<group>"; };
-		B4FBE83F1CD0B94400D297A0 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		B4FBE8401CD0B94400D297A0 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		B4FBE8421CD0B99900D297A0 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		B4DD56761CEEFD4E008C0A82 /* NewThingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewThingsViewController.h; sourceTree = "<group>"; };
+		B4DD56771CEEFD4E008C0A82 /* NewThingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewThingsViewController.m; sourceTree = "<group>"; };
+		B4DD56781CEEFD4E008C0A82 /* NewThingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewThingsViewController.xib; sourceTree = "<group>"; };
+		B4DD567C1CEF02A1008C0A82 /* PageScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageScrollView.h; sourceTree = "<group>"; };
+		B4DD567D1CEF02A1008C0A82 /* PageScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageScrollView.m; sourceTree = "<group>"; };
+		B4DD56861CEF0DE0008C0A82 /* CJColumnView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJColumnView.h; sourceTree = "<group>"; };
+		B4DD56871CEF0DE0008C0A82 /* CJColumnView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJColumnView.m; sourceTree = "<group>"; };
+		B4DD56881CEF0DE0008C0A82 /* CJColumnView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CJColumnView.xib; sourceTree = "<group>"; };
 		B4FBE8451CD19B6800D297A0 /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
 		B4FBE8461CD19B6800D297A0 /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
 		B4FBE8481CD19D6800D297A0 /* naviBar_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "naviBar_back@2x.png"; sourceTree = "<group>"; };
@@ -255,12 +258,10 @@
 		B4BFA9941CCF553900224FBC /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				B4FBE83F1CD0B94400D297A0 /* FirstViewController.h */,
-				B4FBE8401CD0B94400D297A0 /* FirstViewController.m */,
-				B4FBE8421CD0B99900D297A0 /* FirstViewController.xib */,
-				B408309A1CD87C60000940CB /* secondViewController.h */,
-				B408309B1CD87C61000940CB /* secondViewController.m */,
-				B408309C1CD87C61000940CB /* secondViewController.xib */,
+				B4DD566A1CEEFCAC008C0A82 /* Interest */,
+				B4DD566B1CEEFCAC008C0A82 /* Me */,
+				B4DD566C1CEEFCAC008C0A82 /* News */,
+				B4DD566D1CEEFCAC008C0A82 /* NewThings */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -268,6 +269,10 @@
 		B4BFA9951CCF553900224FBC /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				B4DD566E1CEEFCDC008C0A82 /* Interest */,
+				B4DD566F1CEEFCDC008C0A82 /* Me */,
+				B4DD56701CEEFCDC008C0A82 /* News */,
+				B4DD56711CEEFCDC008C0A82 /* NewThings */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -275,6 +280,8 @@
 		B4BFA9961CCF553900224FBC /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				B4DD56851CEF0DE0008C0A82 /* CJColumnView */,
+				B4DD567B1CEF02A1008C0A82 /* PageScrollView */,
 				B4FBE8441CD19B2D00D297A0 /* Category */,
 				B4A1ACD11CD05BB900EE86DC /* Device */,
 			);
@@ -284,6 +291,10 @@
 		B4BFA9971CCF553900224FBC /* View */ = {
 			isa = PBXGroup;
 			children = (
+				B4DD56721CEEFCED008C0A82 /* Interest */,
+				B4DD56731CEEFCED008C0A82 /* Me */,
+				B4DD56741CEEFCED008C0A82 /* News */,
+				B4DD56751CEEFCED008C0A82 /* NewThings */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -308,6 +319,112 @@
 				B4A1ACCB1CD054F600EE86DC /* 2@3x.png */,
 			);
 			path = Image;
+			sourceTree = "<group>";
+		};
+		B4DD566A1CEEFCAC008C0A82 /* Interest */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interest;
+			sourceTree = "<group>";
+		};
+		B4DD566B1CEEFCAC008C0A82 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		B4DD566C1CEEFCAC008C0A82 /* News */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		B4DD566D1CEEFCAC008C0A82 /* NewThings */ = {
+			isa = PBXGroup;
+			children = (
+				B4DD56761CEEFD4E008C0A82 /* NewThingsViewController.h */,
+				B4DD56771CEEFD4E008C0A82 /* NewThingsViewController.m */,
+				B4DD56781CEEFD4E008C0A82 /* NewThingsViewController.xib */,
+			);
+			path = NewThings;
+			sourceTree = "<group>";
+		};
+		B4DD566E1CEEFCDC008C0A82 /* Interest */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interest;
+			sourceTree = "<group>";
+		};
+		B4DD566F1CEEFCDC008C0A82 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		B4DD56701CEEFCDC008C0A82 /* News */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		B4DD56711CEEFCDC008C0A82 /* NewThings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NewThings;
+			sourceTree = "<group>";
+		};
+		B4DD56721CEEFCED008C0A82 /* Interest */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interest;
+			sourceTree = "<group>";
+		};
+		B4DD56731CEEFCED008C0A82 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		B4DD56741CEEFCED008C0A82 /* News */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		B4DD56751CEEFCED008C0A82 /* NewThings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NewThings;
+			sourceTree = "<group>";
+		};
+		B4DD567B1CEF02A1008C0A82 /* PageScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				B4DD567C1CEF02A1008C0A82 /* PageScrollView.h */,
+				B4DD567D1CEF02A1008C0A82 /* PageScrollView.m */,
+			);
+			path = PageScrollView;
+			sourceTree = "<group>";
+		};
+		B4DD56851CEF0DE0008C0A82 /* CJColumnView */ = {
+			isa = PBXGroup;
+			children = (
+				B4DD56861CEF0DE0008C0A82 /* CJColumnView.h */,
+				B4DD56871CEF0DE0008C0A82 /* CJColumnView.m */,
+				B4DD56881CEF0DE0008C0A82 /* CJColumnView.xib */,
+			);
+			path = CJColumnView;
 			sourceTree = "<group>";
 		};
 		B4FBE8441CD19B2D00D297A0 /* Category */ = {
@@ -444,14 +561,14 @@
 			files = (
 				B4BFA9A21CCF5D9C00224FBC /* 1@2x.png in Resources */,
 				B4BFA96C1CCF531100224FBC /* Assets.xcassets in Resources */,
-				B408309E1CD87C61000940CB /* secondViewController.xib in Resources */,
 				B4A1ACCC1CD054F600EE86DC /* 2@3x.png in Resources */,
 				B4FBE84A1CD19D6800D297A0 /* naviBar_back@2x.png in Resources */,
 				B4BFA9A31CCF5D9C00224FBC /* 1@3x.png in Resources */,
 				B4A1ACD01CD0588B00EE86DC /* LaunchScreen.xib in Resources */,
-				B4FBE8431CD0B99900D297A0 /* FirstViewController.xib in Resources */,
+				B4DD567A1CEEFD4E008C0A82 /* NewThingsViewController.xib in Resources */,
 				B4A1ACCA1CD054D200EE86DC /* 2@2x.png in Resources */,
 				B4FBE84B1CD19D6800D297A0 /* naviBar_back@3x.png in Resources */,
+				B4DD568A1CEF0DE0008C0A82 /* CJColumnView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -526,15 +643,16 @@
 			files = (
 				B4A1ACD71CD05BF500EE86DC /* CJDeviceVersion.m in Sources */,
 				B4FBE8561CD3361800D297A0 /* AppDelegate+Extension.m in Sources */,
+				B4DD56791CEEFD4E008C0A82 /* NewThingsViewController.m in Sources */,
 				B4BFA9A61CCF610B00224FBC /* BaseTabBarController.m in Sources */,
-				B4FBE8411CD0B94400D297A0 /* FirstViewController.m in Sources */,
 				B4BFA99F1CCF5A9F00224FBC /* BaseNavigationController.m in Sources */,
 				B4FBE8471CD19B6800D297A0 /* UIBarButtonItem+Extension.m in Sources */,
+				B4DD567E1CEF02A1008C0A82 /* PageScrollView.m in Sources */,
 				B4BFA99B1CCF557A00224FBC /* BaseViewController.m in Sources */,
 				B4FBE84E1CD1C42B00D297A0 /* UIImage+Extension.m in Sources */,
 				B4BFA9641CCF531100224FBC /* AppDelegate.m in Sources */,
-				B408309D1CD87C61000940CB /* secondViewController.m in Sources */,
 				B4BFA9611CCF531100224FBC /* main.m in Sources */,
+				B4DD56891CEF0DE0008C0A82 /* CJColumnView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

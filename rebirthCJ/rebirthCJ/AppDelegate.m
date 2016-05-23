@@ -13,7 +13,7 @@
 #import <ShareSDK/ShareSDK.h>
 #import "AppDelegate+Extension.h"
 #import "UIImageView+AFNetworking.h"
-#import "FirstViewController.h"
+#import "NewThingsViewController.h"
 
 @interface AppDelegate ()
 
@@ -31,10 +31,12 @@
     [self setupUMeng];
     [self setupShareSDK];
     
-    [self setLaunchViewViewAnimation];
+//    [self setLaunchViewViewAnimation];
     
-    UIViewController *ctr = [[UIViewController alloc]init];
-    self.window.rootViewController = ctr;
+//    UIViewController *ctr = [[UIViewController alloc]init];
+//    self.window.rootViewController = ctr;
+    
+    [self setRootViewController];
     
     
     return YES;
@@ -71,26 +73,26 @@
 }
 
 - (void)setRootViewController {
-    FirstViewController *oneCtr = [[FirstViewController alloc]initWithUri:@"FirstViewController" ext:nil];
-    BaseNavigationController *oneNavigationController = [[BaseNavigationController alloc] initWithRootViewController:oneCtr];
+    NewThingsViewController *newThingsCtr = [[NewThingsViewController alloc]initWithUri:@"NewThingsViewController" ext:nil];
+    BaseNavigationController *oneNavigationController = [[BaseNavigationController alloc] initWithRootViewController:newThingsCtr];
     oneNavigationController.navigationBar.barStyle = UIBarStyleDefault;
-    oneNavigationController.tabBarItem.title = @"one";
+    oneNavigationController.tabBarItem.title = @"新鲜事";
     oneNavigationController.tabBarItem.image = [UIImage imageNamed:@"1"];
     
     BaseViewController *twoCtr = [[BaseViewController alloc]initWithUri:nil ext:nil];
     BaseNavigationController *twoNavigationController = [[BaseNavigationController alloc] initWithRootViewController:twoCtr];
     twoNavigationController.navigationBar.barStyle = UIBarStyleDefault;
-    twoNavigationController.tabBarItem.title = @"two";
+    twoNavigationController.tabBarItem.title = @"兴趣";
     
     BaseViewController *threeCtr = [[BaseViewController alloc]initWithUri:nil ext:nil];
     BaseNavigationController *threeNavigationController = [[BaseNavigationController alloc] initWithRootViewController:threeCtr];
     threeNavigationController.navigationBar.barStyle = UIBarStyleDefault;
-    threeNavigationController.tabBarItem.title = @"three";
+    threeNavigationController.tabBarItem.title = @"消息";
     
     BaseViewController *fourCtr = [[BaseViewController alloc]initWithUri:nil ext:nil];
     BaseNavigationController *fourNavigationController = [[BaseNavigationController alloc] initWithRootViewController:fourCtr];
     fourNavigationController.navigationBar.barStyle = UIBarStyleDefault;
-    fourNavigationController.tabBarItem.title = @"four";
+    fourNavigationController.tabBarItem.title = @"我";
     
     self.mainTabBarController = [[BaseTabBarController alloc] init];
     self.mainTabBarController.viewControllers = [NSArray arrayWithObjects:
