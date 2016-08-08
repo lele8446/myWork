@@ -20,5 +20,15 @@
  *  @return
  */
 - (instancetype)initWithUri:(NSString *)uri ext:(NSDictionary *)ext;
+
+/**
+ *  返回上层页面
+ */
+- (void)leftBackPopViewcontroller;
+
+/**
+ *  返回根视图
+ */
+- (void)leftBackRootViewController;
 @end
 

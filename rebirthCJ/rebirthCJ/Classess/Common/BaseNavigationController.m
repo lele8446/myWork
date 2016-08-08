@@ -25,8 +25,7 @@
     self.navigationBar.shadowImage = [[UIImage alloc] init];
     
     __weak BaseNavigationController *weakSelf = self;
-    if ([self respondsToSelector:@selector(interactivePopGestureRecognizer)])
-    {
+    if ([self respondsToSelector:@selector(interactivePopGestureRecognizer)]) {
         self.interactivePopGestureRecognizer.delegate = weakSelf;
         self.delegate = weakSelf;
     }
@@ -46,8 +45,7 @@
     return UIInterfaceOrientationMaskPortrait;
 }
 
-- (BOOL)shouldAutorotate
-{
+- (BOOL)shouldAutorotate {
     //判断是否横屏
     if ([self.topViewController isKindOfClass:[NSClassFromString(@"MPMoviePlayerViewController") class]]) {
         return YES;
