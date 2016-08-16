@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10116"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NewThingsViewController">
+            <connections>
+                <outlet property="pageView" destination="GgR-Sc-4tK" id="0uE-e8-Sac"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GgR-Sc-4tK" customClass="PageScrollView">
+                    <rect key="frame" x="0.0" y="40" width="320" height="464"/>
+                    <color key="backgroundColor" red="0.88894567879999997" green="0.96596744099999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="GgR-Sc-4tK" secondAttribute="bottom" id="DFJ-pR-y3N"/>
+                <constraint firstItem="GgR-Sc-4tK" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="WJR-Ys-C9C"/>
+                <constraint firstAttribute="trailing" secondItem="GgR-Sc-4tK" secondAttribute="trailing" id="lWY-1c-q4C"/>
+                <constraint firstItem="GgR-Sc-4tK" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="40" id="vLd-qW-Cb0"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+</document>

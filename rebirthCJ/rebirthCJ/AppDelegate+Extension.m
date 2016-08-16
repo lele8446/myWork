@@ -35,7 +35,7 @@
         [MobClick startWithAppkey:UM_APP_KEY
                      reportPolicy:BATCH
                         channelId:Nil];
-#if CJDEBUG
+#if DEBUG
 //        [MobClick setLogEnabled:YES];
 #else
         [MobClick setLogEnabled:NO];

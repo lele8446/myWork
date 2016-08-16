@@ -8,7 +8,6 @@
 
 #import "BaseViewController.h"
 #import "MobClick.h"
-#import "FirstViewController.h"
 
 @interface BaseViewController ()<UIGestureRecognizerDelegate>
 
@@ -31,8 +30,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor colorWithRed:0.8686 green:0.9768 blue:0.9865 alpha:1.0];
-    //不设置iOS7之后view将向四周延伸
-    self.edgesForExtendedLayout = UIRectEdgeNone;
+    if (IOS_VERSION >= 7.0) {
+        //不设置iOS7之后view将向四周延伸
+        self.edgesForExtendedLayout = UIRectEdgeNone;
+    }
 }
 
 - (void)didReceiveMemoryWarning {
