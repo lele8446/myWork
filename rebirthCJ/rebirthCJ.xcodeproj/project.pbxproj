@@ -13,6 +13,7 @@
 		B40830A61CD88263000940CB /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B40830A51CD88263000940CB /* JavaScriptCore.framework */; };
 		B40830A81CD88278000940CB /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B40830A71CD88278000940CB /* ImageIO.framework */; };
 		B40830AA1CD88286000940CB /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B40830A91CD88286000940CB /* libsqlite3.tbd */; };
+		B495662D1CF43B1C00FCB5B4 /* DropdownSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = B495662C1CF43B1C00FCB5B4 /* DropdownSelectView.m */; };
 		B4A1ACCA1CD054D200EE86DC /* 2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4A1ACC91CD054D200EE86DC /* 2@2x.png */; };
 		B4A1ACCC1CD054F600EE86DC /* 2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4A1ACCB1CD054F600EE86DC /* 2@3x.png */; };
 		B4A1ACD01CD0588B00EE86DC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4A1ACCF1CD0588B00EE86DC /* LaunchScreen.xib */; };
@@ -67,6 +68,8 @@
 		B40830A51CD88263000940CB /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		B40830A71CD88278000940CB /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		B40830A91CD88286000940CB /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		B495662B1CF43B1C00FCB5B4 /* DropdownSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropdownSelectView.h; sourceTree = "<group>"; };
+		B495662C1CF43B1C00FCB5B4 /* DropdownSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropdownSelectView.m; sourceTree = "<group>"; };
 		B4A1ACC91CD054D200EE86DC /* 2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2@2x.png"; sourceTree = "<group>"; };
 		B4A1ACCB1CD054F600EE86DC /* 2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2@3x.png"; sourceTree = "<group>"; };
 		B4A1ACCF1CD0588B00EE86DC /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
@@ -152,6 +155,15 @@
 				6164F5538D9A1129B4F8CD09 /* Pods.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		B495662A1CF43B1C00FCB5B4 /* DropdownSelectView */ = {
+			isa = PBXGroup;
+			children = (
+				B495662B1CF43B1C00FCB5B4 /* DropdownSelectView.h */,
+				B495662C1CF43B1C00FCB5B4 /* DropdownSelectView.m */,
+			);
+			path = DropdownSelectView;
 			sourceTree = "<group>";
 		};
 		B4A1ACD11CD05BB900EE86DC /* Device */ = {
@@ -280,6 +292,7 @@
 		B4BFA9961CCF553900224FBC /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				B495662A1CF43B1C00FCB5B4 /* DropdownSelectView */,
 				B4DD56851CEF0DE0008C0A82 /* CJColumnView */,
 				B4DD567B1CEF02A1008C0A82 /* PageScrollView */,
 				B4FBE8441CD19B2D00D297A0 /* Category */,
@@ -644,6 +657,7 @@
 				B4A1ACD71CD05BF500EE86DC /* CJDeviceVersion.m in Sources */,
 				B4FBE8561CD3361800D297A0 /* AppDelegate+Extension.m in Sources */,
 				B4DD56791CEEFD4E008C0A82 /* NewThingsViewController.m in Sources */,
+				B495662D1CF43B1C00FCB5B4 /* DropdownSelectView.m in Sources */,
 				B4BFA9A61CCF610B00224FBC /* BaseTabBarController.m in Sources */,
 				B4BFA99F1CCF5A9F00224FBC /* BaseNavigationController.m in Sources */,
 				B4FBE8471CD19B6800D297A0 /* UIBarButtonItem+Extension.m in Sources */,

@@ -257,7 +257,7 @@ const NSString * kBackColor              = @"backColor";
         return;
     }
     if (index == _currentIndex) {
-        return;
+//        return;
     }
     
     // 选择：

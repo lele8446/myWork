@@ -31,12 +31,12 @@
     [self setupUMeng];
     [self setupShareSDK];
     
-//    [self setLaunchViewViewAnimation];
+    [self setLaunchViewViewAnimation];
     
-//    UIViewController *ctr = [[UIViewController alloc]init];
-//    self.window.rootViewController = ctr;
+    UIViewController *ctr = [[UIViewController alloc]init];
+    self.window.rootViewController = ctr;
     
-    [self setRootViewController];
+//    [self setRootViewController];
     
     
     return YES;
