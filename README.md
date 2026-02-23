@@ -1,1 +1,3 @@
-# myWork
+# MyWork
+
+Project Basic Template

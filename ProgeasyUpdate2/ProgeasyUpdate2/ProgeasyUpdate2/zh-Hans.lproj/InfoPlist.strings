@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  CJMetro
+
+  Created by lele8446 on 2024/4/28.
+  
+*/
+"CFBundleDisplayName"                                   = "手机清理";
+"NSPhotoLibraryAddUsageDescription"                     = "此应用需要访问您的照片库才能使用清理功能。";
+"NSPhotoLibraryUsageDescription"                        = "此应用需要访问您的照片库才能使用清理功能。";

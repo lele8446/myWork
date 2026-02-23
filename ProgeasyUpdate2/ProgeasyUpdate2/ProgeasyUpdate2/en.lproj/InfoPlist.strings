@@ -1,0 +1,11 @@
+/* 
+  InfoPlist.strings
+  CJMetro
+
+  Created by lele8446 on 2024/4/28.
+  
+*/
+"CFBundleDisplayName"                                   = "CJ Cleanup";
+"NSPhotoLibraryAddUsageDescription"                     = "This app requires access to your photo library to use the clean-up feature.";
+"NSPhotoLibraryUsageDescription"                        = "This app requires access to your photo library to use the clean-up feature.";
+

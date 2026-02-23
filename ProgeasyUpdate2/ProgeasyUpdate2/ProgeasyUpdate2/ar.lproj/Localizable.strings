@@ -1,0 +1,105 @@
+/*
+  Localizable.strings
+  CJMetro
+
+  Created by lele8446 on 2024/4/28.
+  
+*/
+
+"Cancel" = "إلغاء";
+"OK" = "موافق";
+"Notice" = "إشعار";
+"Data exception" = "استثناء البيانات";
+"Network error, click to retry" = "خطأ في الشبكة، انقر للمحاولة مرة أخرى";
+"No data" = "لا توجد بيانات";
+"Click to retry" = "انقر للمحاولة مرة أخرى";
+"Network error, please try again later." = "خطأ في الشبكة، يرجى المحاولة لاحقًا.";
+"Operation error." = "خطأ في العملية.";
+
+"About" = "حول";
+"Language Settings" = "إعدادات اللغة";
+"Check For Updates" = "التحقق من وجود تحديثات";
+"The current version is the latest." = "الإصدار الحالي هو الأحدث.";
+"App Rating" = "تقييم التطبيق";
+"Privacy Policy" = "سياسة الخصوصية";
+"Terms Of Service" = "شروط الخدمة";
+"Contact Us" = "اتصل بنا";
+"Send Email" = "إرسال بريد إلكتروني";
+"Copied to clipboard." = "تم النسخ إلى الحافظة.";
+"Email app not installed." = "تطبيق البريد الإلكتروني غير مثبت.";
+"New version available" = "يتوفر إصدار جديد";
+"Update Now" = "حدث الآن";
+"Fixed some known issues." = "تم إصلاح بعض المشكلات المعروفة.";
+"Optimized user experience." = "تم تحسين تجربة المستخدم.";
+
+"Enjoy the ad-free version of the App." = "استمتع بالإصدار الخالي من الإعلانات من التطبيق.";
+"Make your App use more focused and enjoyable without ads." = "اجعل استخدامك للتطبيق أكثر تركيزًا ومتعة بدون إعلانات.";
+"Restore" = "استعادة";
+"Continue" = "متابعة";
+"Yearly Card" = "بطاقة سنوية";
+"Quarterly Card" = "بطاقة ربع سنوية";
+"Monthly Card" = "بطاقة شهرية";
+"Weekly Card" = "بطاقة أسبوعية";
+"You can cancel your subscription at any time in your iTunes account settings, otherwise it will be automatically renewed, and this must be done within 24 hours of the end of the free trial or any subscription period to avoid being charged. Note: Subscriptions that include a free trial period will automatically renew to a paid subscription." = "يمكنك إلغاء اشتراكك في أي وقت من إعدادات حساب iTunes الخاص بك، وإلا فسيتم تجديده تلقائيًا، ويجب القيام بذلك في غضون 24 ساعة من نهاية الفترة التجريبية المجانية أو أي فترة اشتراك لتجنب الخصم. ملاحظة: الاشتراكات التي تتضمن فترة تجريبية مجانية ستتجدد تلقائيًا إلى اشتراك مدفوع.";
+"Restore Subscription Failed" = "فشل في استعادة الاشتراك";
+"Subscription Failed" = "فشل الاشتراك";
+"Unable to make in-app purchases, please check your device or account settings" = "غير قادر على إجراء عمليات شراء داخل التطبيق، يرجى التحقق من إعدادات جهازك أو حسابك";
+"You currently have no subscriptions available to restore" = "ليس لديك أي اشتراكات متاحة للاستعادة حاليًا";
+"Please select a membership to subscribe" = "يرجى اختيار عضوية للاشتراك";
+"Current Subscription: " = "الاشتراك الحالي: ";
+
+"Details please check" = "يرجى التحقق من التفاصيل";
+"Enjoy 12 months of ad-free pure experience" = "استمتع بـ 12 شهرًا من تجربة نقية خالية من الإعلانات";
+"Enjoy 3 months of ad-free smooth usage" = "استمتع بـ 3 أشهر من استخدام سلس وخالٍ من الإعلانات";
+"Enjoy 1 month of ad-free comfortable experience" = "استمتع بشهر واحد من تجربة مريحة خالية من الإعلانات";
+"Enjoy 1 week of ad-free refreshing experience" = "استمتع بأسبوع واحد من تجربة منعشة خالية من الإعلانات";
+
+
+"Info" = "معلومات";
+"Storage" = "التخزين";
+"Total" = "إجمالي التخزين";
+"Available" = "متاح";
+"Used" = "مستخدم";
+"Memory Usage" = "استخدام الذاكرة";
+"Total Memory" = "إجمالي الذاكرة";
+"Battery Level" = "مستوى البطارية";
+
+"CJ Cleanup" = "منظف";
+"Ready to scan" = "جاهز للفحص";
+"Scanning" = "جارٍ الفحص";
+"You have selected limited access. To clean junk more effectively, please allow access to more photos." = "لقد اخترت وصولاً محدودًا. لتنظيف الملفات غير المرغوب فيها بشكل أكثر فعالية، يرجى السماح بالوصول إلى المزيد من الصور.";
+"No Thanks" = "لا، شكرًا";
+"Settings" = "الإعدادات";
+"In order to help you clean up your phone's junk, we need access to your photo library." = "من أجل مساعدتك في تنظيف الملفات غير المرغوب فيها على هاتفك، نحتاج إلى الوصول إلى مكتبة الصور الخاصة بك.";
+"Start" = "ابدأ";
+"Stop" = "إيقاف";
+
+"Duplicate Photos" = "صور مكررة";
+"Screenshots" = "لقطات الشاشة";
+"Screen Recordings" = "تسجيلات الشاشة";
+"Large Photos" = "صور كبيرة";
+"Large Videos" = "مقاطع فيديو كبيرة";
+"Items" = "العناصر";
+"Your device is fully optimized" = "جهازك مُحسن بالكامل";
+
+"All Cleaned" = "تم التنظيف بالكامل";
+"All" = "الكل";
+"Select videos to clean up" = "حدد مقاطع الفيديو للتنظيف";
+"Select images to clean up" = "حدد الصور للتنظيف";
+"Estimated cleanable space: %@" = "المساحة القابلة للتنظيف المقدرة: %@";
+"Delete %@ selected image" = "حذف %@ صور محددة";
+"Delete %@ selected video" = "حذف %@ مقاطع فيديو محددة";
+"s?" = "";
+"?" = "";
+"Cleanup completed, %@ freed" = "اكتمل التنظيف، %@ تم تحريرها";
+"Delete failed, Please try again." = "فشل الحذف، يرجى المحاولة مرة أخرى.";
+
+"Cleanup Setting" = "إعدادات التنظيف";
+"Done" = "تم";
+"Max Photo Size" = "الحد الأقصى لحجم الصورة";
+"Scan Photo" = "فحص الصور";
+"Max Video Size" = "الحد الأقصى لحجم الفيديو";
+"Scan Video" = "فحص الفيديو";
+
+"Congratulations!" = "تهانينا!";
+"Empty the 'Recently Deleted' album on your iPhone to permanently free up %@ of space." = "افرغ ألبوم «تمت الإزالة مؤخرًا» على iPhone لتحرير %@ من المساحة بشكل دائم.";

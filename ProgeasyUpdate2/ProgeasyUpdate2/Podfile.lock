@@ -1,0 +1,131 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - Alamofire (5.8.1)
+  - Cartography (4.0.0)
+  - CJLabel (4.7.3)
+  - CJTextView (2.0.4)
+  - FMDB (2.7.2):
+    - FMDB/standard (= 2.7.2)
+  - FMDB/standard (2.7.2)
+  - HBDNavigationBar (1.8.0-park)
+  - iOSOpenCC (1.1.7)
+  - IQKeyboardManager (6.5.5)
+  - Masonry (1.1.0.7)
+  - MBProgressHUD (1.2.0)
+  - SDWebImage (5.12.5):
+    - SDWebImage/Core (= 5.12.5)
+  - SDWebImage/Core (5.12.5)
+  - TOCropViewController (2.5.2)
+  - TZImagePickerController (3.6.7.4)
+  - ZWTFileDownloader (0.2.3.13):
+    - AFNetworking
+  - ZWTPhoto (0.3.33):
+    - ZWTPhoto/Common (= 0.3.33)
+    - ZWTPhoto/Edit (= 0.3.33)
+    - ZWTPhoto/Pick (= 0.3.33)
+    - ZWTPhoto/Preview (= 0.3.33)
+    - ZWTPhoto/TakePhoto (= 0.3.33)
+  - ZWTPhoto/Common (0.3.33)
+  - ZWTPhoto/Edit (0.3.33):
+    - TOCropViewController
+    - ZWTPhoto/Common
+    - ZWTPhoto/Pick
+    - ZWTPhoto/TakePhoto
+  - ZWTPhoto/Pick (0.3.33):
+    - TZImagePickerController
+    - ZWTPhoto/Common
+  - ZWTPhoto/Preview (0.3.33):
+    - MBProgressHUD
+    - SDWebImage
+    - ZWTFileDownloader
+    - ZWTPhoto/Common
+  - ZWTPhoto/TakePhoto (0.3.33):
+    - ZWTPhoto/Common
+
+DEPENDENCIES:
+  - AFNetworking (from `../../LocalPods/AFNetworking`)
+  - Alamofire (from `../../LocalPods/Alamofire`)
+  - Cartography (from `../../LocalPods/Cartography`)
+  - CJLabel (from `../../LocalPods/CJLabel`)
+  - CJTextView (from `../../LocalPods/CJTextView`)
+  - FMDB (from `../../LocalPods/FMDB`)
+  - HBDNavigationBar (from `../../LocalPods/HBDNavigationBar`)
+  - iOSOpenCC (from `../../LocalPods/OpenCC`)
+  - IQKeyboardManager (from `../../LocalPods/IQKeyboardManager`)
+  - Masonry (from `../../LocalPods/Masonry`)
+  - MBProgressHUD (from `../../LocalPods/MBProgressHUD`)
+  - SDWebImage (from `../../LocalPods/SDWebImage`)
+  - TOCropViewController (from `../../LocalPods/TOCropViewController`)
+  - TZImagePickerController (from `../../LocalPods/TZImagePickerController`)
+  - ZWTFileDownloader (from `../../LocalPods/ZWTFileDownloader`)
+  - ZWTPhoto (from `../../LocalPods/ZWTPhoto`)
+
+EXTERNAL SOURCES:
+  AFNetworking:
+    :path: "../../LocalPods/AFNetworking"
+  Alamofire:
+    :path: "../../LocalPods/Alamofire"
+  Cartography:
+    :path: "../../LocalPods/Cartography"
+  CJLabel:
+    :path: "../../LocalPods/CJLabel"
+  CJTextView:
+    :path: "../../LocalPods/CJTextView"
+  FMDB:
+    :path: "../../LocalPods/FMDB"
+  HBDNavigationBar:
+    :path: "../../LocalPods/HBDNavigationBar"
+  iOSOpenCC:
+    :path: "../../LocalPods/OpenCC"
+  IQKeyboardManager:
+    :path: "../../LocalPods/IQKeyboardManager"
+  Masonry:
+    :path: "../../LocalPods/Masonry"
+  MBProgressHUD:
+    :path: "../../LocalPods/MBProgressHUD"
+  SDWebImage:
+    :path: "../../LocalPods/SDWebImage"
+  TOCropViewController:
+    :path: "../../LocalPods/TOCropViewController"
+  TZImagePickerController:
+    :path: "../../LocalPods/TZImagePickerController"
+  ZWTFileDownloader:
+    :path: "../../LocalPods/ZWTFileDownloader"
+  ZWTPhoto:
+    :path: "../../LocalPods/ZWTPhoto"
+
+SPEC CHECKSUMS:
+  AFNetworking: 44f3a741754c62ffecc0b71858a1bdfe07cfcadb
+  Alamofire: b42ee9834d9d7457389d943910bac377b0e7f4d0
+  Cartography: a3ab518901cfe2aa34dd8d517d54db7a0f589a50
+  CJLabel: 6168ed696c228e1666d49027fde783656cabf2fe
+  CJTextView: ac4b847d333b0248fb611ffd5408d8b3491c5bc5
+  FMDB: 5daed67008ee7c1fd674e88b191bd959bc930e83
+  HBDNavigationBar: f0ab4ec68f8e28eea48cb8c63dbe3165c788667a
+  iOSOpenCC: 2408d2e7c4f3fee1c574b6552f4975d7dbfbefbf
+  IQKeyboardManager: 263721c2bbd13771b444dadf4df61a8418817185
+  Masonry: 0941cc8b5adae333b9f1866db6eb29e1d5045c30
+  MBProgressHUD: 0e8863086b789adf7758640db4fd3fb4660af543
+  SDWebImage: 0fc074f77f888794746880a532149c8b58698dfe
+  TOCropViewController: 529c8978dda186bba20f3770157e9465df4255a7
+  TZImagePickerController: 29e53374fa441556cc5d536140dbfce7d396a9cd
+  ZWTFileDownloader: b2a5e1bac480165f2b4ef39238f3c05ad560a59b
+  ZWTPhoto: 200e8b4abd64f65b4d66cfa795be792046ae68f5
+
+PODFILE CHECKSUM: 8184f439d199c6955e27587b23b676e94f43ad6d
+
+COCOAPODS: 1.16.2

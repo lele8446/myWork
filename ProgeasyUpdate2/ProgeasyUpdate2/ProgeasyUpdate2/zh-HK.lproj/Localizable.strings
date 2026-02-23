@@ -1,0 +1,105 @@
+/*
+  Localizable.strings
+  CJMetro
+
+  Created by lele8446 on 2024/4/28.
+  
+*/
+
+"Cancel" = "取消";
+"OK" = "確定";
+"Notice" = "提示";
+"Data exception" = "數據異常";
+"Network error, click to retry" = "網絡異常，點擊重試";
+"No data" = "沒有數據";
+"Click to retry" = "點擊重試";
+"Network error, please try again later." = "網絡異常，請稍後重試";
+"Operation error." = "操作異常";
+
+"About" = "關於";
+"Language Settings" = "語言設定";
+"Check For Updates" = "檢查更新";
+"The current version is the latest." = "已經是最新版本";
+"App Rating" = "應用評分";
+"Privacy Policy" = "隱私政策";
+"Terms Of Service" = "服務條款";
+"Contact Us" = "聯繫我們";
+"Send Email" = "發送郵件";
+"Copied to clipboard." = "已複製到剪貼板";
+"Email app not installed." = "未安裝郵箱App";
+"New version available" = "發現新版本";
+"Update Now" = "立即更新";
+"Fixed some known issues." = "修復了部分已知問題";
+"Optimized user experience." = "優化用戶體驗";
+
+"Enjoy the ad-free version of the App." = "享受純淨體驗，立即升級去除廣告";
+"Make your App use more focused and enjoyable without ads." = "無廣告干擾，讓您的App使用更加專注和愉悅";
+"Restore" = "恢復訂閱";
+"Continue" = "訂閱";
+"Yearly Card" = "年卡會員";
+"Quarterly Card" = "季卡會員";
+"Monthly Card" = "月卡會員";
+"Weekly Card" = "週卡會員";
+"You can cancel your subscription at any time in your iTunes account settings, otherwise it will be automatically renewed, and this must be done within 24 hours of the end of the free trial or any subscription period to avoid being charged. Note: Subscriptions that include a free trial period will automatically renew to a paid subscription." = "您可在iTunes帳戶設置中隨時取消您的訂閱，否則將自動續費，此操作必須在免費試用期或任何訂閱期結束前24小時內完成以避免被扣費。注意：包含免費試用期的訂閱將自動續費為付費訂閱。";
+"Restore Subscription Failed" = "恢復訂閱失敗";
+"Subscription Failed" = "訂閱失敗";
+"Unable to make in-app purchases, please check your device or account settings" = "無法進行應用內購買，請檢查設備或帳戶設置";
+"You currently have no subscriptions available to restore" = "您當前沒有可恢復的訂閱";
+"Please select a membership to subscribe" = "請選擇要訂閱的會員";
+"Current Subscription: " = "當前訂閱: ";
+
+"Details please check" = "詳情請查看";
+"Enjoy 12 months of ad-free pure experience" = "享受12個月無廣告純淨體驗";
+"Enjoy 3 months of ad-free smooth usage" = "享受3個月無廣告流暢使用";
+"Enjoy 1 month of ad-free comfortable experience" = "享受1個月無廣告舒適體驗";
+"Enjoy 1 week of ad-free refreshing experience" = "享受1週無廣告清爽體驗";
+
+
+"Info" = "設備資訊";
+"Storage" = "儲存空間";
+"Total" = "總空間";
+"Available" = "可用";
+"Used" = "已用";
+"Memory Usage" = "記憶體使用";
+"Total Memory" = "記憶體總量";
+"Battery Level" = "當前電量";
+
+"CJ Cleanup" = "手機清理";
+"Ready to scan" = "開始掃描";
+"Scanning" = "掃描中";
+"You have selected limited access. To clean junk more effectively, please allow access to more photos." = "您已選擇限制權限，若想更有效清理垃圾，請允許存取更多照片。";
+"No Thanks" = "不需要";
+"Settings" = "前往設定";
+"In order to help you clean up your phone's junk, we need access to your photo library." = "為了幫助您清理手機垃圾，我們需要存取您的相簿。";
+"Start" = "開始";
+"Stop" = "停止";
+
+"Duplicate Photos" = "重複圖片";
+"Screenshots" = "螢幕截圖";
+"Screen Recordings" = "螢幕錄影";
+"Large Photos" = "大型圖片";
+"Large Videos" = "大型影片";
+"Items" = "項目";
+"Your device is fully optimized" = "已清理至最佳狀態";
+
+"All Cleaned" = "沒有可清理項目";
+"All" = "全選";
+"Select videos to clean up" = "請選擇需要清理的影片";
+"Select images to clean up" = "請選擇需要清理的圖片";
+"Estimated cleanable space: %@" = "預計可清理空間：%@";
+"Delete %@ selected image" = "是否刪除 %@ 張圖片";
+"Delete %@ selected video" = "是否刪除 %@ 個影片";
+"s?" = "？";
+"?" = "？";
+"Cleanup completed, %@ freed" = "清理完成，已釋放 %@ 空間";
+"Delete failed, Please try again." = "刪除失敗，請重試";
+
+"Cleanup Setting" = "清理設定";
+"Done" = "完成";
+"Max Photo Size" = "大型圖片";
+"Scan Photo" = "掃描圖片";
+"Max Video Size" = "大型影片";
+"Scan Video" = "掃描影片";
+
+"Congratulations!" = "祝賀！";
+"Empty the 'Recently Deleted' album on your iPhone to permanently free up %@ of space." = "清空 iPhone 上的「最近刪除的項目」相簿，永久釋放 %@ 空間。";

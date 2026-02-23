@@ -1,0 +1,105 @@
+/*
+  Localizable.strings
+  CJMetro
+
+  Created by lele8446 on 2024/4/28.
+  
+*/
+
+"Cancel" = "Cancelar";
+"OK" = "Aceptar";
+"Notice" = "Aviso";
+"Data exception" = "Excepción de datos";
+"Network error, click to retry" = "Error de red, haga clic para reintentar";
+"No data" = "Sin datos";
+"Click to retry" = "Haga clic para reintentar";
+"Network error, please try again later." = "Error de red, inténtelo más tarde.";
+"Operation error." = "Error de operación.";
+
+"About" = "Acerca de";
+"Language Settings" = "Configuración de idioma";
+"Check For Updates" = "Buscar actualizaciones";
+"The current version is the latest." = "La versión actual es la más reciente.";
+"App Rating" = "Calificación de la app";
+"Privacy Policy" = "Política de privacidad";
+"Terms Of Service" = "Términos de servicio";
+"Contact Us" = "Contáctenos";
+"Send Email" = "Enviar correo";
+"Copied to clipboard." = "Copiado al portapapeles.";
+"Email app not installed." = "Aplicación de correo no instalada.";
+"New version available" = "Nueva versión disponible";
+"Update Now" = "Actualizar ahora";
+"Fixed some known issues." = "Se corrigieron algunos problemas conocidos.";
+"Optimized user experience." = "Experiencia de usuario optimizada.";
+
+"Enjoy the ad-free version of the App." = "Disfrute de la versión de la app sin anuncios.";
+"Make your App use more focused and enjoyable without ads." = "Haga que su app sea más enfocada y agradable sin anuncios.";
+"Restore" = "Restaurar";
+"Continue" = "Continuar";
+"Yearly Card" = "Suscripción anual";
+"Quarterly Card" = "Suscripción trimestral";
+"Monthly Card" = "Suscripción mensual";
+"Weekly Card" = "Suscripción semanal";
+"You can cancel your subscription at any time in your iTunes account settings, otherwise it will be automatically renewed, and this must be done within 24 hours of the end of the free trial or any subscription period to avoid being charged. Note: Subscriptions that include a free trial period will automatically renew to a paid subscription." = "Puede cancelar su suscripción en cualquier momento en la configuración de su cuenta de iTunes; de lo contrario, se renovará automáticamente. Esto debe hacerse dentro de las 24 horas posteriores al final del período de prueba gratuita o cualquier período de suscripción para evitar cargos. Nota: las suscripciones con período de prueba gratuito se renovarán automáticamente a suscripciones de pago.";
+"Restore Subscription Failed" = "Error al restaurar la suscripción";
+"Subscription Failed" = "Error de suscripción";
+"Unable to make in-app purchases, please check your device or account settings" = "No se pueden realizar compras dentro de la app, verifique la configuración de su dispositivo o cuenta";
+"You currently have no subscriptions available to restore" = "Actualmente no tiene suscripciones para restaurar";
+"Please select a membership to subscribe" = "Seleccione una suscripción para suscribirse";
+"Current Subscription: " = "Suscripción actual: ";
+
+"Details please check" = "Ver detalles";
+"Enjoy 12 months of ad-free pure experience" = "Disfrute de 12 meses de experiencia sin anuncios";
+"Enjoy 3 months of ad-free smooth usage" = "Disfrute de 3 meses de uso sin anuncios";
+"Enjoy 1 month of ad-free comfortable experience" = "Disfrute de 1 mes de experiencia sin anuncios";
+"Enjoy 1 week of ad-free refreshing experience" = "Disfrute de 1 semana de experiencia sin anuncios";
+
+
+"Info" = "Información";
+"Storage" = "Almacenamiento";
+"Total" = "Total";
+"Available" = "Disponible";
+"Used" = "Usado";
+"Memory Usage" = "Uso de memoria";
+"Total Memory" = "Memoria total";
+"Battery Level" = "Nivel de batería";
+
+"CJ Cleanup" = "Limpieza";
+"Ready to scan" = "Listo para escanear";
+"Scanning" = "Escaneando";
+"You have selected limited access. To clean junk more effectively, please allow access to more photos." = "Ha seleccionado acceso limitado. Para limpiar más eficazmente, permita el acceso a más fotos.";
+"No Thanks" = "No, gracias";
+"Settings" = "Configuración";
+"In order to help you clean up your phone's junk, we need access to your photo library." = "Para ayudarlo a limpiar su teléfono, necesitamos acceso a su biblioteca de fotos.";
+"Start" = "Iniciar";
+"Stop" = "Detener";
+
+"Duplicate Photos" = "Fotos duplicadas";
+"Screenshots" = "Capturas de pantalla";
+"Screen Recordings" = "Grabaciones de pantalla";
+"Large Photos" = "Fotos grandes";
+"Large Videos" = "Videos grandes";
+"Items" = "Elementos";
+"Your device is fully optimized" = "Su dispositivo está completamente optimizado";
+
+"All Cleaned" = "Todo limpiado";
+"All" = "Todo";
+"Select videos to clean up" = "Seleccione los videos para limpiar";
+"Select images to clean up" = "Seleccione las imágenes para limpiar";
+"Estimated cleanable space: %@" = "Espacio estimado para limpiar: %@";
+"Delete %@ selected image" = "Eliminar %@ imagenes seleccionadas";
+"Delete %@ selected video" = "Eliminar %@ videos seleccionados";
+"s?" = "?";
+"?" = "?";
+"Cleanup completed, %@ freed" = "Limpieza completada, %@ liberado";
+"Delete failed, Please try again." = "Error al eliminar, intente nuevamente.";
+
+"Cleanup Setting" = "Configuración de limpieza";
+"Done" = "Hecho";
+"Max Photo Size" = "Tamaño máximo de foto";
+"Scan Photo" = "Escanear foto";
+"Max Video Size" = "Tamaño máximo de video";
+"Scan Video" = "Escanear video";
+
+"Congratulations!" = "¡Felicidades!";
+"Empty the 'Recently Deleted' album on your iPhone to permanently free up %@ of space." = "Vacía el álbum «Eliminados recientemente» en tu iPhone para liberar de forma permanente %@ de espacio.";

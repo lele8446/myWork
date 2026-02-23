@@ -1,0 +1,105 @@
+/*
+  Localizable.strings
+  CJMetro
+
+  Created by lele8446 on 2024/4/28.
+  
+*/
+
+"Cancel" = "Cancel";
+"OK" = "OK";
+"Notice" = "Notice";
+"Data exception" = "Data exception";
+"Network error, click to retry" = "Network error, click to retry";
+"No data" = "No data";
+"Click to retry" = "Click to retry";
+"Network error, please try again later." = "Network error, please try again later.";
+"Operation error." = "Operation error.";
+
+"About" = "About";
+"Language Settings" = "Language Settings";
+"Check For Updates" = "Check For Updates";
+"The current version is the latest." = "The current version is the latest.";
+"App Rating" = "App Rating";
+"Privacy Policy" = "Privacy Policy";
+"Terms Of Service" = "Terms Of Service";
+"Contact Us" = "Contact Us";
+"Send Email" = "Send Email";
+"Copied to clipboard." = "Copied to clipboard.";
+"Email app not installed." = "Email app not installed.";
+"New version available" = "New version available";
+"Update Now" = "Update Now";
+"Fixed some known issues." = "Fixed some known issues.";
+"Optimized user experience." = "Optimized user experience.";
+
+"Enjoy the ad-free version of the App." = "Enjoy the ad-free version of the App.";
+"Make your App use more focused and enjoyable without ads." = "Make your App use more focused and enjoyable without ads.";
+"Restore" = "Restore";
+"Continue" = "Continue";
+"Yearly Card" = "Yearly Card";
+"Quarterly Card" = "Quarterly Card";
+"Monthly Card" = "Monthly Card";
+"Weekly Card" = "Weekly Card";
+"You can cancel your subscription at any time in your iTunes account settings, otherwise it will be automatically renewed, and this must be done within 24 hours of the end of the free trial or any subscription period to avoid being charged. Note: Subscriptions that include a free trial period will automatically renew to a paid subscription." = "You can cancel your subscription at any time in your iTunes account settings, otherwise it will be automatically renewed, and this must be done within 24 hours of the end of the free trial or any subscription period to avoid being charged. Note: Subscriptions that include a free trial period will automatically renew to a paid subscription.";
+"Restore Subscription Failed" = "Restore Subscription Failed";
+"Subscription Failed" = "Subscription Failed";
+"Unable to make in-app purchases, please check your device or account settings" = "Unable to make in-app purchases, please check your device or account settings";
+"You currently have no subscriptions available to restore" = "You currently have no subscriptions available to restore";
+"Please select a membership to subscribe" = "Please select a membership to subscribe";
+"Current Subscription: " = "Current Subscription: ";
+
+"Details please check" = "Details please check";
+"Enjoy 12 months of ad-free pure experience" = "Enjoy 12 months of ad-free pure experience";
+"Enjoy 3 months of ad-free smooth usage" = "Enjoy 3 months of ad-free smooth usage";
+"Enjoy 1 month of ad-free comfortable experience" = "Enjoy 1 month of ad-free comfortable experience";
+"Enjoy 1 week of ad-free refreshing experience" = "Enjoy 1 week of ad-free refreshing experience";
+
+
+"Info" = "Info";
+"Storage" = "Storage";
+"Total" = "Total Storage";
+"Available" = "Available";
+"Used" = "Used";
+"Memory Usage" = "Memory Usage";
+"Total Memory" = "Total Memory";
+"Battery Level" = "Battery Level";
+
+"CJ Cleanup" = "CJ Cleanup";
+"Ready to scan" = "Ready to scan";
+"Scanning" = "Scanning";
+"You have selected limited access. To clean junk more effectively, please allow access to more photos." = "You have selected limited access. To clean junk more effectively, please allow access to more photos.";
+"No Thanks" = "No Thanks";
+"Settings" = "Settings";
+"In order to help you clean up your phone's junk, we need access to your photo library." = "In order to help you clean up your phone's junk, we need access to your photo library.";
+"Start" = "Start";
+"Stop" = "Stop";
+
+"Duplicate Photos" = "Duplicate Photos";
+"Screenshots" = "Screenshots";
+"Screen Recordings" = "Screen Recordings";
+"Large Photos" = "Large Photos";
+"Large Videos" = "Large Videos";
+"Items" = "Items";
+"Your device is fully optimized" = "Your device is fully optimized";
+
+"All Cleaned" = "All Cleaned";
+"All" = "All";
+"Select videos to clean up" = "Select videos to clean up";
+"Select images to clean up" = "Select images to clean up";
+"Estimated cleanable space: %@" = "Estimated cleanable space: %@";
+"Delete %@ selected image" = "Delete %@ selected image";
+"Delete %@ selected video" = "Delete %@ selected video";
+"s?" = "s?";
+"?" = "?";
+"Cleanup completed, %@ freed" = "Cleanup completed, %@ freed";
+"Delete failed, Please try again." = "Delete failed, Please try again.";
+
+"Cleanup Setting" = "Cleanup Setting";
+"Done" = "Done";
+"Max Photo Size" = "Max Photo Size";
+"Scan Photo" = "Scan Photo";
+"Max Video Size" = "Max Video Size";
+"Scan Video" = "Scan Video";
+
+"Congratulations!" = "Congratulations!";
+"Empty the 'Recently Deleted' album on your iPhone to permanently free up %@ of space." = "Empty the 'Recently Deleted' album on your iPhone to permanently free up %@ of space.";

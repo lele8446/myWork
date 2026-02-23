@@ -1,0 +1,105 @@
+/*
+  Localizable.strings
+  CJMetro
+
+  Created by lele8446 on 2024/4/28.
+  
+*/
+
+"Cancel" = "ยกเลิก";
+"OK" = "ตกลง";
+"Notice" = "แจ้งเตือน";
+"Data exception" = "ข้อผิดพลาดของข้อมูล";
+"Network error, click to retry" = "ข้อผิดพลาดเครือข่าย คลิกเพื่อลองใหม่";
+"No data" = "ไม่มีข้อมูล";
+"Click to retry" = "คลิกเพื่อทดลองใหม่";
+"Network error, please try again later." = "ข้อผิดพลาดเครือข่าย กรุณาลองใหม่ภายหลัง";
+"Operation error." = "ข้อผิดพลาดในการทำงาน";
+
+"About" = "เกี่ยวกับ";
+"Language Settings" = "การตั้งค่าภาษา";
+"Check For Updates" = "ตรวจสอบอัปเดต";
+"The current version is the latest." = "เวอร์ชันปัจจุบันเป็นเวอร์ชันล่าสุดแล้ว";
+"App Rating" = "การให้คะแนนแอป";
+"Privacy Policy" = "นโยบายความเป็นส่วนตัว";
+"Terms Of Service" = "ข้อกำหนดการให้บริการ";
+"Contact Us" = "ติดต่อเรา";
+"Send Email" = "ส่งอีเมล";
+"Copied to clipboard." = "คัดลอกไปยังคลิปบอร์ดแล้ว";
+"Email app not installed." = "ไม่มีแอปอีเมลติดตั้งในอุปกรณ์";
+"New version available" = "มีเวอร์ชันใหม่";
+"Update Now" = "อัปเดตทันที";
+"Fixed some known issues." = "แก้ไขปัญหาที่ทราบแล้วบางส่วน";
+"Optimized user experience." = "ปรับปรุงประสบการณ์การใช้งาน";
+
+"Enjoy the ad-free version of the App." = "สนุกกับแอปเวอร์ชันไม่มีโฆษณา";
+"Make your App use more focused and enjoyable without ads." = "ทำให้การใช้งานแอปมีสมาธิและสนุกยิ่งขึ้นโดยไม่มีโฆษณา";
+"Restore" = "กู้คืน";
+"Continue" = "ดำเนินการต่อ";
+"Yearly Card" = "สมัครสมาชิกรายปี";
+"Quarterly Card" = "สมัครสมาชิกรายไตรมาส";
+"Monthly Card" = "สมัครสมาชิกรายเดือน";
+"Weekly Card" = "สมัครสมาชิกรายสัปดาห์";
+"You can cancel your subscription at any time in your iTunes account settings, otherwise it will be automatically renewed, and this must be done within 24 hours of the end of the free trial or any subscription period to avoid being charged. Note: Subscriptions that include a free trial period will automatically renew to a paid subscription." = "คุณสามารถยกเลิกการสมัครได้ตลอดเวลาในบัญชี iTunes ของคุณ มิฉะนั้นจะต่ออายุอัตโนมัติ ซึ่งต้องดำเนินการภายใน 24 ชั่วโมงหลังจากสิ้นสุดช่วงทดลองใช้ฟรีหรือช่วงการสมัครใด ๆ เพื่อหลีกเลี่ยงการเรียกเก็บเงิน หมายเหตุ: การสมัครที่มีช่วงทดลองใช้ฟรีจะต่ออายุเป็นการสมัครแบบชำระเงินโดยอัตโนมัติ";
+"Restore Subscription Failed" = "การกู้คืนการสมัครล้มเหลว";
+"Subscription Failed" = "การสมัครล้มเหลว";
+"Unable to make in-app purchases, please check your device or account settings" = "ไม่สามารถซื้อในแอปได้ โปรดตรวจสอบการตั้งค่าอุปกรณ์หรือบัญชีของคุณ";
+"You currently have no subscriptions available to restore" = "คุณไม่มีการสมัครใด ๆ ที่สามารถกู้คืนได้";
+"Please select a membership to subscribe" = "กรุณาเลือกการสมัครเพื่อสมัครสมาชิก";
+"Current Subscription: " = "การสมัครปัจจุบัน: ";
+
+"Details please check" = "ตรวจสอบรายละเอียด";
+"Enjoy 12 months of ad-free pure experience" = "สนุกกับประสบการณ์ 12 เดือน ไม่มีโฆษณา";
+"Enjoy 3 months of ad-free smooth usage" = "สนุกกับการใช้งาน 3 เดือน ไม่มีโฆษณา";
+"Enjoy 1 month of ad-free comfortable experience" = "สนุกกับประสบการณ์ 1 เดือน ไม่มีโฆษณา";
+"Enjoy 1 week of ad-free refreshing experience" = "สนุกกับประสบการณ์ 1 สัปดาห์ ไม่มีโฆษณา";
+
+
+"Info" = "ข้อมูล";
+"Storage" = "พื้นที่เก็บข้อมูล";
+"Total" = "รวม";
+"Available" = "ว่าง";
+"Used" = "ใช้ไป";
+"Memory Usage" = "การใช้งานหน่วยความจำ";
+"Total Memory" = "หน่วยความจำทั้งหมด";
+"Battery Level" = "ระดับแบตเตอรี่";
+
+"CJ Cleanup" = "ทำความสะอาด";
+"Ready to scan" = "พร้อมสแกน";
+"Scanning" = "กำลังสแกน";
+"You have selected limited access. To clean junk more effectively, please allow access to more photos." = "คุณเลือกการเข้าถึงจำกัด เพื่อทำความสะอาดได้อย่างมีประสิทธิภาพมากขึ้น โปรดอนุญาตให้เข้าถึงรูปภาพมากขึ้น";
+"No Thanks" = "ไม่ต้องการ";
+"Settings" = "การตั้งค่า";
+"In order to help you clean up your phone's junk, we need access to your photo library." = "เพื่อช่วยคุณทำความสะอาดโทรศัพท์ เราจำเป็นต้องเข้าถึงคลังรูปภาพของคุณ";
+"Start" = "เริ่ม";
+"Stop" = "หยุด";
+
+"Duplicate Photos" = "รูปซ้ำ";
+"Screenshots" = "ภาพหน้าจอ";
+"Screen Recordings" = "บันทึกหน้าจอ";
+"Large Photos" = "รูปภาพขนาดใหญ่";
+"Large Videos" = "วิดีโอขนาดใหญ่";
+"Items" = "รายการ";
+"Your device is fully optimized" = "อุปกรณ์ของคุณได้รับการปรับให้เหมาะสมเต็มที่";
+
+"All Cleaned" = "ล้างเรียบร้อยแล้ว";
+"All" = "ทั้งหมด";
+"Select videos to clean up" = "เลือกวิดีโอที่ต้องการล้าง";
+"Select images to clean up" = "เลือกรูปภาพที่ต้องการล้าง";
+"Estimated cleanable space: %@" = "พื้นที่ที่คาดว่าจะล้างได้: %@";
+"Delete %@ selected image" = "ลบ %@ รูปภาพที่เลือก";
+"Delete %@ selected video" = "ลบ %@ วิดีโอที่เลือก";
+"s?" = "?";
+"?" = "?";
+"Cleanup completed, %@ freed" = "ทำความสะอาดเสร็จสิ้น, %@ ถูกปล่อยออก";
+"Delete failed, Please try again." = "ลบล้มเหลว กรุณาลองใหม่";
+
+"Cleanup Setting" = "การตั้งค่าการทำความสะอาด";
+"Done" = "เสร็จสิ้น";
+"Max Photo Size" = "ขนาดรูปภาพสูงสุด";
+"Scan Photo" = "สแกนรูปภาพ";
+"Max Video Size" = "ขนาดวิดีโอสูงสุด";
+"Scan Video" = "สแกนวิดีโอ";
+
+"Congratulations!" = "ขอแสดงความยินดี!";
+"Empty the 'Recently Deleted' album on your iPhone to permanently free up %@ of space." = "ล้างอัลบั้ม «รายการที่เพิ่งลบ» บน iPhone ของคุณเพื่อเพิ่มพื้นที่ว่าง %@ อย่างถาวร";

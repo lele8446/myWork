@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  CJMetro
+
+  Created by lele8446 on 2024/4/28.
+  
+*/
+"CFBundleDisplayName"                                   = "클린업";
+"NSPhotoLibraryAddUsageDescription"                     = "이 앱은 정리 기능을 사용하기 위해 사진 보관함에 대한 접근 권한이 필요합니다.";
+"NSPhotoLibraryUsageDescription"                        = "이 앱은 정리 기능을 사용하기 위해 사진 보관함에 대한 접근 권한이 필요합니다.";

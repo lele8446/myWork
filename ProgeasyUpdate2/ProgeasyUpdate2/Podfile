@@ -1,0 +1,53 @@
+
+platform :ios, '13.0'
+
+source 'https://code.paic.com.cn/ioszwtmodule/iosmodulespecs.git'
+
+#use_modular_headers!
+use_frameworks!
+install! 'cocoapods'#,:generate_multiple_pod_projects => true
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    # 解决xcode14 运行报错运行遇到的报错 “error: Signing for “XX” requires a development team.”
+    if target.respond_to?(:product_type) and target.product_type == "com.apple.product-type.bundle"
+      target.build_configurations.each do |config|
+          config.build_settings['CODE_SIGNING_ALLOWED'] = 'NO'
+      end
+    end
+ end
+end
+
+target 'ProgeasyUpdate2' do
+  
+#  pod update --no-repo-update
+
+  pod  'Alamofire',                 :path => '../../LocalPods/Alamofire'
+  pod  'Cartography',               :path => '../../LocalPods/Cartography'
+#  pod  'SwiftyJSON',                :path => '../../LocalPods/SwiftyJSON'
+#  pod  'Kingfisher',                :path => '../../LocalPods/Kingfisher'
+#  pod  'ZWTLookin',                 :path => '../../LocalPods/ZWTLookin', :configurations => ['Debug']
+  pod  'iOSOpenCC',                 :path => '../../LocalPods/OpenCC'
+  pod  'MBProgressHUD',             :path => '../../LocalPods/MBProgressHUD'
+  pod  'Masonry',                   :path => '../../LocalPods/Masonry'
+  pod  'HBDNavigationBar',          :path => '../../LocalPods/HBDNavigationBar'
+  pod  'FMDB',                      :path => '../../LocalPods/FMDB'
+  
+  pod  'ZWTPhoto',                  :path => '../../LocalPods/ZWTPhoto'
+  pod  'SDWebImage',                :path => '../../LocalPods/SDWebImage'
+  pod  'TOCropViewController',      :path => '../../LocalPods/TOCropViewController'
+  pod  'TZImagePickerController',   :path => '../../LocalPods/TZImagePickerController'
+  
+  pod  'ZWTFileDownloader',         :path => '../../LocalPods/ZWTFileDownloader'
+  pod  'AFNetworking',              :path => '../../LocalPods/AFNetworking'
+  
+  pod  'CJTextView',                :path => '../../LocalPods/CJTextView'
+  
+  pod  'IQKeyboardManager',         :path => '../../LocalPods/IQKeyboardManager'
+  pod  'CJLabel',                   :path => '../../LocalPods/CJLabel'
+  
+  
+#  pod  'Appirater'//评分
+  
+  
+end

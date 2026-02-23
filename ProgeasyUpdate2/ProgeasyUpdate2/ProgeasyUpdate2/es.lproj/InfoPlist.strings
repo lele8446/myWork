@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  CJMetro
+
+  Created by lele8446 on 2024/4/28.
+  
+*/
+"CFBundleDisplayName"                                   = "Limpieza";
+"NSPhotoLibraryAddUsageDescription"                     = "Esta aplicación requiere acceso a tu biblioteca de fotos para usar la función de limpieza.";
+"NSPhotoLibraryUsageDescription"                        = "Esta aplicación requiere acceso a tu biblioteca de fotos para usar la función de limpieza.";

@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  CJMetro
+
+  Created by lele8446 on 2024/4/28.
+  
+*/
+"CFBundleDisplayName"                                   = "منظف";
+"NSPhotoLibraryAddUsageDescription"                     = "يتطلب هذا التطبيق الوصول إلى مكتبة الصور لاستخدام ميزة التنظيف.";
+"NSPhotoLibraryUsageDescription"                        = "يتطلب هذا التطبيق الوصول إلى مكتبة الصور لاستخدام ميزة التنظيف.";

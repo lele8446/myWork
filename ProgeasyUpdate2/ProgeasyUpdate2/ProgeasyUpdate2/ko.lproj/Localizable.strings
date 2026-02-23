@@ -1,0 +1,105 @@
+/*
+  Localizable.strings
+  CJMetro
+
+  Created by lele8446 on 2024/4/28.
+  
+*/
+
+"Cancel" = "취소";
+"OK" = "확인";
+"Notice" = "알림";
+"Data exception" = "데이터 오류";
+"Network error, click to retry" = "네트워크 오류, 다시 시도하려면 클릭";
+"No data" = "데이터 없음";
+"Click to retry" = "다시 시도하려면 클릭";
+"Network error, please try again later." = "네트워크 오류, 나중에 다시 시도하세요.";
+"Operation error." = "작업 오류.";
+
+"About" = "앱 정보";
+"Language Settings" = "언어 설정";
+"Check For Updates" = "업데이트 확인";
+"The current version is the latest." = "현재 버전이 최신입니다.";
+"App Rating" = "앱 평가";
+"Privacy Policy" = "개인정보 처리방침";
+"Terms Of Service" = "서비스 이용약관";
+"Contact Us" = "문의하기";
+"Send Email" = "이메일 보내기";
+"Copied to clipboard." = "클립보드에 복사됨.";
+"Email app not installed." = "이메일 앱이 설치되어 있지 않습니다.";
+"New version available" = "새 버전 이용 가능";
+"Update Now" = "지금 업데이트";
+"Fixed some known issues." = "알려진 문제 일부 수정";
+"Optimized user experience." = "사용자 경험 최적화";
+
+"Enjoy the ad-free version of the App." = "광고 없는 앱 버전을 즐기세요.";
+"Make your App use more focused and enjoyable without ads." = "광고 없이 더 집중되고 즐겁게 앱을 사용할 수 있습니다.";
+"Restore" = "복원";
+"Continue" = "계속";
+"Yearly Card" = "연간 구독";
+"Quarterly Card" = "분기 구독";
+"Monthly Card" = "월간 구독";
+"Weekly Card" = "주간 구독";
+"You can cancel your subscription at any time in your iTunes account settings, otherwise it will be automatically renewed, and this must be done within 24 hours of the end of the free trial or any subscription period to avoid being charged. Note: Subscriptions that include a free trial period will automatically renew to a paid subscription." = "iTunes 계정 설정에서 언제든 구독을 취소할 수 있습니다. 그렇지 않으면 자동 갱신되며, 무료 체험 또는 구독 기간 종료 후 24시간 이내에 취소해야 요금이 청구되지 않습니다. 참고: 무료 체험이 포함된 구독은 자동으로 유료 구독으로 갱신됩니다.";
+"Restore Subscription Failed" = "구독 복원 실패";
+"Subscription Failed" = "구독 실패";
+"Unable to make in-app purchases, please check your device or account settings" = "앱 내 구매를 할 수 없습니다. 기기 또는 계정 설정을 확인하세요";
+"You currently have no subscriptions available to restore" = "현재 복원할 구독이 없습니다";
+"Please select a membership to subscribe" = "구독할 멤버십을 선택하세요";
+"Current Subscription: " = "현재 구독: ";
+
+"Details please check" = "세부사항 확인";
+"Enjoy 12 months of ad-free pure experience" = "12개월간 광고 없는 깨끗한 경험을 즐기세요";
+"Enjoy 3 months of ad-free smooth usage" = "3개월간 광고 없는 원활한 사용을 즐기세요";
+"Enjoy 1 month of ad-free comfortable experience" = "1개월간 광고 없는 편안한 경험을 즐기세요";
+"Enjoy 1 week of ad-free refreshing experience" = "1주간 광고 없는 상쾌한 경험을 즐기세요";
+
+
+"Info" = "정보";
+"Storage" = "저장 공간";
+"Total" = "총 저장 공간";
+"Available" = "사용 가능";
+"Used" = "사용됨";
+"Memory Usage" = "메모리 사용량";
+"Total Memory" = "총 메모리";
+"Battery Level" = "배터리 잔량";
+
+"CJ Cleanup" = "클린업";
+"Ready to scan" = "스캔 준비 완료";
+"Scanning" = "스캔 중";
+"You have selected limited access. To clean junk more effectively, please allow access to more photos." = "제한된 접근을 선택했습니다. 더 효과적으로 정리하려면 더 많은 사진에 대한 접근을 허용하세요.";
+"No Thanks" = "괜찮습니다";
+"Settings" = "설정";
+"In order to help you clean up your phone's junk, we need access to your photo library." = "휴대폰 정리를 돕기 위해 사진 라이브러리에 접근해야 합니다.";
+"Start" = "시작";
+"Stop" = "중지";
+
+"Duplicate Photos" = "중복 사진";
+"Screenshots" = "스크린샷";
+"Screen Recordings" = "화면 녹화";
+"Large Photos" = "큰 사진";
+"Large Videos" = "큰 동영상";
+"Items" = "항목";
+"Your device is fully optimized" = "기기가 최적화되었습니다";
+
+"All Cleaned" = "모두 정리됨";
+"All" = "전체";
+"Select videos to clean up" = "정리할 동영상을 선택하세요";
+"Select images to clean up" = "정리할 사진을 선택하세요";
+"Estimated cleanable space: %@" = "예상 정리 가능 공간: %@";
+"Delete %@ selected image" = "선택한 %@개의 사진 삭제";
+"Delete %@ selected video" = "선택한 %@개의 동영상 삭제";
+"s?" = "";
+"?" = "";
+"Cleanup completed, %@ freed" = "정리 완료, %@ 해제됨";
+"Delete failed, Please try again." = "삭제 실패, 다시 시도하세요.";
+
+"Cleanup Setting" = "정리 설정";
+"Done" = "완료";
+"Max Photo Size" = "최대 사진 크기";
+"Scan Photo" = "사진 스캔";
+"Max Video Size" = "최대 동영상 크기";
+"Scan Video" = "동영상 스캔";
+
+"Congratulations!" = "축하합니다!";
+"Empty the 'Recently Deleted' album on your iPhone to permanently free up %@ of space." = "iPhone의 '최근 삭제됨' 앨범을 비워 %@ 공간을 영구적으로 확보하세요.";

@@ -1,0 +1,105 @@
+/*
+  Localizable.strings
+  CJMetro
+
+  Created by lele8446 on 2024/4/28.
+  
+*/
+
+"Cancel" = "Отмена";
+"OK" = "ОК";
+"Notice" = "Уведомление";
+"Data exception" = "Ошибка данных";
+"Network error, click to retry" = "Ошибка сети, нажмите, чтобы повторить";
+"No data" = "Нет данных";
+"Click to retry" = "Нажмите, чтобы повторить";
+"Network error, please try again later." = "Ошибка сети, попробуйте позже.";
+"Operation error." = "Ошибка операции.";
+
+"About" = "О приложении";
+"Language Settings" = "Настройки языка";
+"Check For Updates" = "Проверить обновления";
+"The current version is the latest." = "Текущая версия актуальна.";
+"App Rating" = "Оценка приложения";
+"Privacy Policy" = "Политика конфиденциальности";
+"Terms Of Service" = "Условия использования";
+"Contact Us" = "Связаться с нами";
+"Send Email" = "Отправить email";
+"Copied to clipboard." = "Скопировано в буфер обмена.";
+"Email app not installed." = "Приложение для почты не установлено.";
+"New version available" = "Доступна новая версия";
+"Update Now" = "Обновить сейчас";
+"Fixed some known issues." = "Исправлены некоторые известные ошибки.";
+"Optimized user experience." = "Оптимизирован пользовательский опыт.";
+
+"Enjoy the ad-free version of the App." = "Наслаждайтесь версией приложения без рекламы.";
+"Make your App use more focused and enjoyable without ads." = "Используйте приложение более сосредоточенно и приятно без рекламы.";
+"Restore" = "Восстановить";
+"Continue" = "Продолжить";
+"Yearly Card" = "Годовая подписка";
+"Quarterly Card" = "Квартальная подписка";
+"Monthly Card" = "Месячная подписка";
+"Weekly Card" = "Недельная подписка";
+"You can cancel your subscription at any time in your iTunes account settings, otherwise it will be automatically renewed, and this must be done within 24 hours of the end of the free trial or any subscription period to avoid being charged. Note: Subscriptions that include a free trial period will automatically renew to a paid subscription." = "Вы можете отменить подписку в настройках iTunes в любое время. В противном случае она будет автоматически продлена. Необходимо сделать это за 24 часа до окончания бесплатного периода или текущего периода подписки, чтобы избежать списания средств. Примечание: подписки с бесплатным пробным периодом автоматически продлеваются на платную подписку.";
+"Restore Subscription Failed" = "Не удалось восстановить подписку";
+"Subscription Failed" = "Ошибка подписки";
+"Unable to make in-app purchases, please check your device or account settings" = "Невозможно совершить покупку в приложении, проверьте настройки устройства или учетной записи";
+"You currently have no subscriptions available to restore" = "У вас нет подписок для восстановления";
+"Please select a membership to subscribe" = "Выберите подписку для оформления";
+"Current Subscription: " = "Текущая подписка: ";
+
+"Details please check" = "Проверьте детали";
+"Enjoy 12 months of ad-free pure experience" = "12 месяцев использования без рекламы";
+"Enjoy 3 months of ad-free smooth usage" = "3 месяца использования без рекламы";
+"Enjoy 1 month of ad-free comfortable experience" = "1 месяц использования без рекламы";
+"Enjoy 1 week of ad-free refreshing experience" = "1 неделя использования без рекламы";
+
+
+"Info" = "Информация";
+"Storage" = "Хранилище";
+"Total" = "Общий объем";
+"Available" = "Доступно";
+"Used" = "Использовано";
+"Memory Usage" = "Использование памяти";
+"Total Memory" = "Общий объем памяти";
+"Battery Level" = "Уровень батареи";
+
+"CJ Cleanup" = "Очистка";
+"Ready to scan" = "Готов к сканированию";
+"Scanning" = "Сканирование";
+"You have selected limited access. To clean junk more effectively, please allow access to more photos." = "Вы выбрали ограниченный доступ. Для более эффективной очистки разрешите доступ к большему количеству фотографий.";
+"No Thanks" = "Нет, спасибо";
+"Settings" = "Настройки";
+"In order to help you clean up your phone's junk, we need access to your photo library." = "Для очистки телефона необходимо предоставить доступ к вашей фотобиблиотеке.";
+"Start" = "Начать";
+"Stop" = "Остановить";
+
+"Duplicate Photos" = "Дубликаты фото";
+"Screenshots" = "Скриншоты";
+"Screen Recordings" = "Записи экрана";
+"Large Photos" = "Большие фото";
+"Large Videos" = "Большие видео";
+"Items" = "Элементы";
+"Your device is fully optimized" = "Ваше устройство полностью оптимизировано";
+
+"All Cleaned" = "Все очищено";
+"All" = "Все";
+"Select videos to clean up" = "Выберите видео для очистки";
+"Select images to clean up" = "Выберите изображения для очистки";
+"Estimated cleanable space: %@" = "Примерный объем для очистки: %@";
+"Delete %@ selected image" = "Удалить %@ выбранное изображение";
+"Delete %@ selected video" = "Удалить %@ выбранное видео";
+"s?" = "?";
+"?" = "?";
+"Cleanup completed, %@ freed" = "Очистка завершена, освобождено %@";
+"Delete failed, Please try again." = "Не удалось удалить, попробуйте снова.";
+
+"Cleanup Setting" = "Настройки очистки";
+"Done" = "Готово";
+"Max Photo Size" = "Макс. размер фото";
+"Scan Photo" = "Сканировать фото";
+"Max Video Size" = "Макс. размер видео";
+"Scan Video" = "Сканировать видео";
+
+"Congratulations!" = "Поздравляем!";
+"Empty the 'Recently Deleted' album on your iPhone to permanently free up %@ of space." = "Очистите альбом «Недавно удалённые» на iPhone, чтобы навсегда освободить %@ памяти.";

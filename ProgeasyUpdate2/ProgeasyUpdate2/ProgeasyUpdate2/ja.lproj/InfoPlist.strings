@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  CJMetro
+
+  Created by lele8446 on 2024/4/28.
+  
+*/
+"CFBundleDisplayName"                                   = "クリア";
+"NSPhotoLibraryAddUsageDescription"                     = "このアプリはクリーンアップ機能を使用するために写真ライブラリへのアクセスが必要です。";
+"NSPhotoLibraryUsageDescription"                        = "このアプリはクリーンアップ機能を使用するために写真ライブラリへのアクセスが必要です。";

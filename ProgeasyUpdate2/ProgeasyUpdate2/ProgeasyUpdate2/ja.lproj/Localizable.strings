@@ -1,0 +1,105 @@
+/*
+  Localizable.strings
+  CJMetro
+
+  Created by lele8446 on 2024/4/28.
+  
+*/
+
+"Cancel" = "キャンセル";
+"OK" = "OK";
+"Notice" = "通知";
+"Data exception" = "データ異常";
+"Network error, click to retry" = "ネットワークエラー、クリックして再試行してください";
+"No data" = "データなし";
+"Click to retry" = "クリックして再試行";
+"Network error, please try again later." = "ネットワークエラー、後でもう一度お試しください。";
+"Operation error." = "操作エラー。";
+
+"About" = "アプリについて";
+"Language Settings" = "言語設定";
+"Check For Updates" = "アップデートを確認";
+"The current version is the latest." = "現在のバージョンは最新です。";
+"App Rating" = "アプリ評価";
+"Privacy Policy" = "プライバシーポリシー";
+"Terms Of Service" = "利用規約";
+"Contact Us" = "お問い合わせ";
+"Send Email" = "メールを送信";
+"Copied to clipboard." = "クリップボードにコピーしました。";
+"Email app not installed." = "メールアプリがインストールされていません。";
+"New version available" = "新しいバージョンがあります";
+"Update Now" = "今すぐアップデート";
+"Fixed some known issues." = "既知の問題を修正しました。";
+"Optimized user experience." = "ユーザー体験を最適化しました。";
+
+"Enjoy the ad-free version of the App." = "広告なしのアプリをお楽しみください。";
+"Make your App use more focused and enjoyable without ads." = "広告なしで、より集中して快適にアプリをご利用いただけます。";
+"Restore" = "復元";
+"Continue" = "続行";
+"Yearly Card" = "年間プラン";
+"Quarterly Card" = "3か月プラン";
+"Monthly Card" = "月間プラン";
+"Weekly Card" = "週間プラン";
+"You can cancel your subscription at any time in your iTunes account settings, otherwise it will be automatically renewed, and this must be done within 24 hours of the end of the free trial or any subscription period to avoid being charged. Note: Subscriptions that include a free trial period will automatically renew to a paid subscription." = "サブスクリプションはいつでも iTunes アカウントの設定でキャンセルできます。キャンセルしない場合、無料トライアルまたは任意の購読期間終了の24時間前までに手続きを行わないと、自動的に更新され、料金が発生します。注意: 無料トライアルを含むサブスクリプションは、自動的に有料購読に更新されます。";
+"Restore Subscription Failed" = "サブスクリプションの復元に失敗しました";
+"Subscription Failed" = "サブスクリプションに失敗しました";
+"Unable to make in-app purchases, please check your device or account settings" = "アプリ内購入ができません。デバイスまたはアカウント設定を確認してください";
+"You currently have no subscriptions available to restore" = "復元可能なサブスクリプションはありません";
+"Please select a membership to subscribe" = "購読するメンバーシップを選択してください";
+"Current Subscription: " = "現在のサブスクリプション: ";
+
+"Details please check" = "詳細をご確認ください";
+"Enjoy 12 months of ad-free pure experience" = "12か月間、広告なしの快適な体験をお楽しみください";
+"Enjoy 3 months of ad-free smooth usage" = "3か月間、広告なしのスムーズな利用をお楽しみください";
+"Enjoy 1 month of ad-free comfortable experience" = "1か月間、広告なしの快適な体験をお楽しみください";
+"Enjoy 1 week of ad-free refreshing experience" = "1週間、広告なしの爽快な体験をお楽しみください";
+
+
+"Info" = "情報";
+"Storage" = "ストレージ";
+"Total" = "合計ストレージ";
+"Available" = "利用可能";
+"Used" = "使用済み";
+"Memory Usage" = "メモリ使用量";
+"Total Memory" = "総メモリ";
+"Battery Level" = "バッテリー残量";
+
+"CJ Cleanup" = "クリア";
+"Ready to scan" = "スキャン準備完了";
+"Scanning" = "スキャン中";
+"You have selected limited access. To clean junk more effectively, please allow access to more photos." = "制限付きアクセスを選択しています。不要データをより効果的に削除するため、さらに多くの写真へのアクセスを許可してください。";
+"No Thanks" = "結構です";
+"Settings" = "設定";
+"In order to help you clean up your phone's junk, we need access to your photo library." = "スマートフォンの不要データを削除するために、写真ライブラリへのアクセスが必要です。";
+"Start" = "開始";
+"Stop" = "停止";
+
+"Duplicate Photos" = "重複写真";
+"Screenshots" = "スクリーンショット";
+"Screen Recordings" = "画面録画";
+"Large Photos" = "大きな写真";
+"Large Videos" = "大きな動画";
+"Items" = "項目";
+"Your device is fully optimized" = "デバイスは完全に最適化されています";
+
+"All Cleaned" = "すべて削除済み";
+"All" = "すべて";
+"Select videos to clean up" = "削除する動画を選択";
+"Select images to clean up" = "削除する画像を選択";
+"Estimated cleanable space: %@" = "推定削除可能容量: %@";
+"Delete %@ selected image" = "%@件の画像を削除";
+"Delete %@ selected video" = "%@件の動画を削除";
+"s?" = "";
+"?" = "";
+"Cleanup completed, %@ freed" = "削除が完了しました。%@を解放しました";
+"Delete failed, Please try again." = "削除に失敗しました。もう一度お試しください。";
+
+"Cleanup Setting" = "クリーンアップ設定";
+"Done" = "完了";
+"Max Photo Size" = "最大写真サイズ";
+"Scan Photo" = "写真をスキャン";
+"Max Video Size" = "最大動画サイズ";
+"Scan Video" = "動画をスキャン";
+
+"Congratulations!" = "おめでとう！";
+"Empty the 'Recently Deleted' album on your iPhone to permanently free up %@ of space." = "iPhoneの「最近削除した項目」アルバムを空にして、%@の容量を完全に解放します。";
